@@ -1,5 +1,7 @@
 .part-1-container {
   background-image: url('../images/steve-jobs.png');
+
+  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

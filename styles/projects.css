@@ -21,6 +21,7 @@
   }
 
   .shopping-cart-container {
+    background-image: url("https://clipground.com/images/business-people-clipart-18.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,7 +30,8 @@
   }
 
   .my-meme-container {
-    background-attachment: fixed;
+    background-image: url("https://media.giphy.com/media/9J5iAntSvFsVDXqjPk/giphy.gif");
+    /* background-attachment: fixed; */
   background-position: center;
   background-repeat: no-repeat;
   /* background-size: cover; */
