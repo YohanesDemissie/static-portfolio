@@ -179,10 +179,18 @@ h2 {
   }
 
   .shopping-cart-container {
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     background-size: 300px;
   }
 
   .my-meme-container {
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     background-size: 300px;
   }
 
@@ -199,19 +207,25 @@ h2 {
 
   .my-music-container {
     background-image: url("https://i.pinimg.com/originals/6a/87/f0/6a87f0793f75790276ac8fbd56d9a6cc.jpg");
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     width: 300px;
 
   }
 
   .my-music-image {
     /* NICE ALTERNATIV TO DISPLAY NONE */
-    width: 0px;
-    visibility: hidden;
     display: none;
   }
   .bitcoin-container {
     /* background-image: url('https://i.pinimg.com/originals/3d/6f/bd/3d6fbd225af84c48b4cbc8a725acc278.jpg'); */
     background-image: url('https://s2.best-wallpaper.net/wallpaper/iphone/1811/Bitcoin-virtual-digital-currency_iphone_320x480.jpg');
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     width: 300px;
   }
 }
