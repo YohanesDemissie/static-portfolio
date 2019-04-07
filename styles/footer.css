@@ -1,0 +1,42 @@
+.footer-container {
+  text-align: center;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /* background-image: url('https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80'); */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  /* MOST SUTTLE STAR BACKGROUND SO FAR */
+  background-image: url('https://rprtphoto.files.wordpress.com/2011/06/orion.jpg');
+  /* background-color: black; */
+  width: 100%;
+  background-size: cover;
+}
+
+.footer-back-to-top {
+  color: white;
+  margin: 0px;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.footer {
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  width: 39%;
+  margin-left: 30%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+/* MOBILE VERSION */
+@media screen and (max-width: 450px) {
+  .footer-container {
+    font-size: 10px;
+    padding: 0px;
+  }
+
+  .home-body-content {
+    font-size: 30px;
+  }
+}
