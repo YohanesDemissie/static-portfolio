@@ -1,0 +1,85 @@
+.home-body-container {
+  /* background-image: url("https://associationsnow.com/wp-content/uploads/2018/12/GettyImages-896358708-600x360.jpg"); */
+
+  /* background-image: url("https://media.giphy.com/media/13bGgH9VnEDsuA/giphy.gif"); */
+  /* background-image: url('https://media.giphy.com/media/Pl7MhjWSvFwzu/giphy.gif'); */
+  /* STANDARD BACKGROUND */
+  /* background-image: url('https://jeffdegraff.com/wp-content/uploads/2015/06/bigstock-Think-About-Business-80010203.jpg'); */
+  background-image: url("https://princetoninternetmarketing.com/wp-content/uploads/2015/07/web_developer_wallpaper__code__by_plusjack-d7bmt54.jpg");
+  /* background-image: url('https://media.giphy.com/media/10gFo5xPLLO2Kk/giphy.gif'); */
+  /* background-image: url('https://media.giphy.com/media/5ylMR04C8D1eg/giphy.gif'); */
+  /* background-image: url('https://media.giphy.com/media/aQCCNezRpb9Hq/giphy.gif'); */
+  
+  /* COOL NEW FAVORITE !!! */
+  /* background-image: url('https://media.giphy.com/media/tQDTcwww0x9kc/giphy.gif'); */
+  /* background-image: url('https://media.giphy.com/media/Lb7Yqx96ACyuA/giphy.gif'); */
+  /* width: 80%; */
+  /* height: 500px; */
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  /* height: 80vh; */
+}
+
+.home-title {
+  margin-top: 0px;
+  padding-top: 200px;
+}
+
+.home-body-content {
+  margin-top: 0px;
+   /* original text content on home */
+  /* margin-left: 12%;
+  margin-right: 12%; */
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 29%;
+  height: 80vh;
+
+}
+
+@media screen and (min-width: 451px) {
+  .home-title {
+    font-size: 70px;
+    padding-top: 60px;
+  }
+
+  .home-body-container {
+    /* background-image: url("https://www.bitdegree.org/tutorials/wp-content/uploads/2018/08/what-is-a-web-developer.jpg"); */
+    /* background-image: url("https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif"); */
+  }
+
+  .home-body-content {
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .home-title {
+    font-size: 30px;
+    padding-top: 60px;
+  }
+
+  .home-body-container {
+    /* background-image: url("https://cdn.techopedia.com/images/uploads/sphere-building-city-high-rise-town-urban-lighting-metropolis-downtown.jpg"); */
+    /* background-image: url("https://www.purelogics.net/blog/wp-content/uploads/2018/10/iStock-629285904.jpg"); */
+    background-position: center;
+    background-size: 850px;
+    background-repeat: no-repeat;
+  }
+
+  .home-body-content {
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+  }
+}

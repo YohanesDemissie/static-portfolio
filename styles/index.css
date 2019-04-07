@@ -1,0 +1,135 @@
+.videoLayout {
+	position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+
+.title{
+	margin-top: 100px;
+	margin-bottom: 40px;
+	font-size: 150px;
+	color: black;
+	mix-blend-mode: difference;
+}
+
+.sub-title{
+	margin-top: 100px;
+	font-size: 80px;
+	color: black;
+	mix-blend-mode: difference;
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.button {
+	background-color: rgba(255, 255, 255, 0.4);
+	padding: 30px;
+	padding-left: 100px;
+	padding-right: 100px;
+  text-decoration: none;
+	font-size: 100px;
+	font-weight: 700;
+	position: relative absolute;
+	color: black;
+	mix-blend-mode: difference;
+	border-radius: 100px;
+
+}
+
+.button:hover{
+	/* // color: rgb(255, 255, 255); */
+	/* // font-weight: 750; */
+	text-decoration: underline;
+	/* // text-decoration-color: white; */
+}
+
+@media screen and (max-width: 750px) {
+	.title {
+		/* // margin-top: 100px; */
+		margin-bottom: 50px;
+		padding-top: 50px;
+		font-size: 40px;
+		color: black;
+		mix-blend-mode: difference;
+	}
+
+	.sub-title {
+		font-size: 30px;
+		margin-top: 50px;
+		padding-bottom: 100px;
+	}
+
+	.button {
+		background-color: rgba(255, 255, 255, 0.4);
+		padding: 30px;
+		/* // padding-left: 100px;
+		// padding-right: 100px; */
+		text-decoration: none;
+		font-size: 30px;
+		font-weight: 700;
+		position: relative absolute;
+		color: black;
+		mix-blend-mode: difference;
+		border-radius: 100px;
+	}
+
+	.videoLayout {
+		background-color: black;
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		width: 200%;
+		/* // width: auto;
+		// height: auto; */
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.title {
+		/*  margin-top: 100px; */
+		margin-bottom: 50px;
+		padding-top: 50px;
+		font-size: 40px;
+		color: black;
+		mix-blend-mode: difference;
+	}
+
+	.sub-title {
+		font-size: 30px;
+		margin-top: 50px;
+		padding-bottom: 20px;
+	}
+
+	.button {
+		background-color: rgba(255, 255, 255, 0.4);
+		padding: 30px;
+		/* // padding-left: 100px;
+		// padding-right: 100px; */
+		text-decoration: none;
+		font-size: 30px;
+		font-weight: 700;
+		position: relative absolute;
+		color: black;
+		mix-blend-mode: difference;
+		border-radius: 100px;
+	}
+
+	.videoLayout {
+		background-color: black;
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		width: 220%;
+		/* // width: auto;
+		// height: auto; */
+	}
+}
