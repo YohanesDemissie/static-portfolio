@@ -158,91 +158,104 @@
 }
 
 /* MOBILE VERSION */
-@media only  screen and (max-width: 450px) {
+@media only  screen and (max-device-width: 450px) {
   .about-me-title {
-    font-size: 40px;
+    font-size: 80px;
     padding-bottom: 0px;
-    padding-top: 20px;
+    padding-top: 30px;
     margin: 0px;
+    margin-bottom: 45px;
+    font-weight: 700;
+    line-height: 120%;
   }
 
   .about-me-body {
-    font-size: 30px;
+    /* font-size: 30px;
     line-height: 120%;
     width: 100%;
     margin-top: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 0px; */
+
+    font-size: 45px;
+    line-height: 180%;
+    width: 100%;
+    margin: 0px;
   }
 
   .part-1-content {
-    margin-top: 0px;
-    padding: 0px;
+    padding: 20px;
     width: 90%;
   }
 
   .part-1-container {
     width: 100%;
     background-image: url(../images/steve-jobs.png);
-    background-attachment: fixed;
+    background-attachment: inherit;
     background-position: center;
-    background-size: 850px;
+
+    /* background-size: 850px 900px; */
   }
 
   .part-2-content {
     margin-top: 0px;
-    padding: 0px;
+    padding: 20px;
     width: 90%;
   }
 
   .part-2-container {
     /* width: 100%; */
-    background-attachment: fixed;
-    background-size: 1050px;
+    background-image: url("../images/part-2-container.jpg");
+    background-attachment: inherit;
+    background-size: cover;
   }
 
   .part-3-content {
     margin-top: 0px;
-    padding: 0px;
+    padding: 20px;
     width: 90%;
   }
 
   .part-3-container {
-    width: 100%;
+    /* width: 100%; */
     background-image: url("https://recoverit.wondershare.com/images/article/07/iphone-wallpapers-22.jpg");
+    background-attachment: inherit;
+    background-size: cover;
     /* background-image: url("https://i.pinimg.com/originals/04/6a/2a/046a2a0d81e667a354766d45d37b8b5b.png"); */
   }
 
   .part-4-content {
-    margin-top: 0px;
-    padding: 0px;
+    /* margin-top: 0px; */
+    padding: 20px;
     width: 90%;
   }
 
   .part-4-container {
-    width: 100%;
+    background-image: url("../images/team-work.jpeg");
+    background-attachment: inherit;
+    background-size: cover;
   }
 
   .part-5-content {
     margin-top: 0px;
-    padding: 0px;
+    padding: 20px;
     width: 90%;
   }
 
   .part-5-container {
-    width: 100%;
+    background-image: url("../images/humble-beginnings.jpeg");
+    background-attachment: inherit;
+    background-size: cover;
   }
 
   .part-6-content {
     margin-top: 0px;
-    padding: 0px;
+    padding: 20px;
     width: 90%;
   }
 
   .part-6-container {
-    width: 100%;
-    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRSpNZexrI0Mes9-EG13VSNCrcBHGGsy22LflYZrrEXvpx94SP"); */
     background-image: url("https://i.pinimg.com/originals/14/49/32/144932a404978137eadb37b684d92c8f.jpg");
     background-attachment: inherit;
-    background-size: 450px;
+    background-size: 100%;
   }
 }

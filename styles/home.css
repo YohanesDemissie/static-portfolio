@@ -61,25 +61,26 @@
   }
 }
 
-@media only  screen and (max-width: 450px) {
+@media only  screen and (max-device-width: 450px) {
   .home-title {
-    font-size: 30px;
-    padding-top: 60px;
-  }
-
-  .home-body-container {
-    /* background-image: url("https://cdn.techopedia.com/images/uploads/sphere-building-city-high-rise-town-urban-lighting-metropolis-downtown.jpg"); */
-    /* background-image: url("https://www.purelogics.net/blog/wp-content/uploads/2018/10/iStock-629285904.jpg"); */
-    background-position: center;
-    background-size: 850px;
-    background-repeat: no-repeat;
+    font-size: 80px;
+    padding-bottom: 0px;
+    padding-top: 30px;
+    margin: 0px;
+    margin-bottom: 45px;
+    font-weight: 700;
   }
 
   .home-body-content {
-    font-size: 30px;
     background-color: rgba(0, 0, 0, 0.6);
     width: 90%;
     margin: 10px auto;
     padding: 10px;
+
+  }
+
+  .home-body-text {
+    font-size: 45px;
+    line-height: 180%;
   }
 }
