@@ -177,6 +177,7 @@ h2 {
   }
 
   .shopping-cart-container {
+    margin-top: 10px;
     background-image: url("https://clipground.com/images/business-people-clipart-18.jpg");
     background-attachment: inherit;
 

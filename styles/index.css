@@ -12,11 +12,10 @@
 		background-size: 270%;
 		background-repeat: no-repeat;
 		margin-top: 0px;
-		padding-top: 970px;
+		padding-top: 700px;
 		padding-bottom: 300px;
 	}
 	.title {
-		/* top: 20%; */
 		font-size: 90px;
 		color: white;
 		mix-blend-mode: difference;
@@ -44,7 +43,7 @@
 		/* CENTERS BUTTON */
 		margin-top: 100px;
 		position: absolute;
-  	top: 80%;
+  	top: 70%;
   	left: 50%;
   	transform: translate(-50%, -50%);
   	-ms-transform: translate(-50%, -50%);
@@ -61,10 +60,10 @@
 		background-image: url("../images/hd0941.mov");
 		background-position: center;
 		background-attachment: inherit;
-		background-size: 270%;
+		background-size: cover 270%;
 		background-repeat: no-repeat;
 		margin-top: 0px;
-		padding-top: 970px;
+		padding-top: 700px;
 		padding-bottom: 300px;
 	}
 	.title {
@@ -98,7 +97,7 @@
 		/* CENTERS BUTTON */
 
 		position: absolute;
-  	top: 100%;
+  	top: 90%;
   	left: 50%;
   	transform: translate(-50%, -50%);
   	-ms-transform: translate(-50%, -50%);
