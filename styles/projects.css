@@ -153,7 +153,7 @@ h2 {
 }
 
 /* IPHONE 7 PLUS WIDTH IN INCHES */
-@media only  screen and (max-width: 337.5) {
+@media only  screen and (max-width: 337.5pt) {
   .projects-title {
     color: red;
     font-size: 40px;
