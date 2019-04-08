@@ -176,6 +176,12 @@ h2 {
     width: 90%;
   }
 
+  .shopping-cart-container {
+    background-image: url("https://clipground.com/images/business-people-clipart-18.jpg");
+    background-attachment: inherit;
+
+  }
+
   .dev-chat-image {
     display: none;
   }
@@ -188,7 +194,7 @@ h2 {
   .my-meme-container {
     background-color: black;
     background-attachment: inherit;
-    background-size: 1000px 1050px;
+    /* background-size: 200%; */
   }
 
   .my-music-container {
