@@ -8,14 +8,14 @@
 		background-image: url("../images/hd0941.mov");
 		background-position: center;
 		background-attachment: inherit;
-		background-size: 200%;
+		background-size: 270%;
 		background-repeat: no-repeat;
 		margin-top: 0px;
 		padding-top: 970px;
 		padding-bottom: 300px;
 	}
 	.title {
-		top: 50%;
+		/* top: 20%; */
 		font-size: 90px;
 		color: white;
 		mix-blend-mode: difference;
