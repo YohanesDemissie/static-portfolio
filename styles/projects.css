@@ -152,7 +152,8 @@ h2 {
   background-size: cover;
 }
 
-@media only  screen and (max-width: 219.3pt) {
+/* IPHONE 7 PLUS WIDTH IN INCHES */
+@media only  screen and (max-width: 337.5) {
   .projects-title {
     color: red;
     font-size: 40px;
