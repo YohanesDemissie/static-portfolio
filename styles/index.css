@@ -8,13 +8,13 @@
 		background-image: url("../images/hd0941.mov");
 		background-position: center;
 		background-attachment: inherit;
-		background-size: cover;
-		margin-top: 300px;
-		padding-top: 570px;
+		background-size: 200%;
+		background-repeat: no-repeat;
+		margin-top: 0px;
+		padding-top: 970px;
+		padding-bottom: 300px;
 	}
 	.title {
-		/*  margin-top: 100px; */
-		/* margin-bottom: 50px; */
 		top: 50%;
 		font-size: 90px;
 		color: white;
@@ -28,9 +28,7 @@
 		height: 60%;
 		padding-bottom: 20px;
 		text-align: center;
-				mix-blend-mode: difference;
-
-
+		mix-blend-mode: difference;
 	}
 
 	.button {
@@ -41,22 +39,14 @@
 		font-weight: 700;
 		color: black;
 		mix-blend-mode: difference;
-		border-radius: 100px; 
-		/* margin-left: 35%; */
+		border-radius: 100px;
 
+		/* CENTERS BUTTON */
 		position: absolute;
-  	top: 78%;
+  	top: 90%;
   	left: 50%;
   	transform: translate(-50%, -50%);
   	-ms-transform: translate(-50%, -50%);
-  /* color: black;
-  font-size: 16px;
-  padding: 16px 30px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-align: center; */
-
 	}
 
 }
