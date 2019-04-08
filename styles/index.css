@@ -1,6 +1,59 @@
 
+/* IPHONE XS MAX */
+@media only screen and (max-device-height: 900px) {
 
-@media only  screen and (max-device-width: 450px) {
+	.background {
+		background-color: black;
+	}
+	.index-container {
+		background-image: url("../images/hd0941.mov");
+		background-position: center;
+		background-attachment: inherit;
+		background-size: 270%;
+		background-repeat: no-repeat;
+		margin-top: 0px;
+		padding-top: 970px;
+		padding-bottom: 300px;
+	}
+	.title {
+		/* top: 20%; */
+		font-size: 90px;
+		color: white;
+		mix-blend-mode: difference;
+		text-align: center;
+	}
+
+	.sub-title {
+		color: white;
+		font-size: 50px;
+		height: 60%;
+		padding-bottom: 20px;
+		text-align: center;
+		mix-blend-mode: difference;
+	}
+	.button {
+		background-color: rgba(255, 255, 255, 0.4);
+		padding: 40px;
+		text-decoration: none;
+		font-size: 50px;
+		font-weight: 700;
+		color: black;
+		mix-blend-mode: difference;
+		border-radius: 100px;
+
+		/* CENTERS BUTTON */
+		margin-top: 100px;
+		position: absolute;
+  	top: 80%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+	}
+}
+
+
+
+@media only  screen and (max-device-height: 740px) {
 	.background {
 		background-color: black;
 	}
@@ -40,31 +93,12 @@
 		color: black;
 		mix-blend-mode: difference;
 		border-radius: 100px;
-		margin-top: 90px;
+		margin-top: 50px;
 
 		/* CENTERS BUTTON */
+
 		position: absolute;
   	top: 100%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
-  	-ms-transform: translate(-50%, -50%);
-	}
-}
-
-@media only screen and (max-device-width: 400px) {
-	.button {
-		background-color: rgba(255, 255, 255, 0.4);
-		padding: 40px;
-		text-decoration: none;
-		font-size: 50px;
-		font-weight: 700;
-		color: black;
-		mix-blend-mode: difference;
-		border-radius: 100px;
-
-		/* CENTERS BUTTON */
-		position: absolute;
-  	top: 80%;
   	left: 50%;
   	transform: translate(-50%, -50%);
   	-ms-transform: translate(-50%, -50%);
