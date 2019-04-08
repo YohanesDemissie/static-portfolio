@@ -153,27 +153,31 @@ h2 {
 }
 
 /* IPHONE 7 PLUS WIDTH IN INCHES */
-@media only  screen and (max-width: 337.5pt) {
+@media all and (max-device-width: 450px) {
   .projects-title {
-    color: red;
-    font-size: 40px;
+    font-size: 80px;
     padding-bottom: 0px;
-    padding-top: 20px;
+    padding-top: 30px;
     margin: 0px;
+    margin-bottom: 45px;
+    font-weight: 700;
   }
 
   .projects-body {
-    font-size: 30px;
-    line-height: 120%;
+    font-size: 45px;
+    line-height: 180%;
     width: 100%;
-    margin-top: 10px;
-    margin-bottom: 0px;
+    margin: 0px;
   }
 
   .projects-content {
     margin-top: 0px;
-    padding: 5px;
+    padding: 20px;
     width: 90%;
+  }
+
+  .dev-chat-image {
+    display: none;
   }
 
   .dev-chat-container {
@@ -181,20 +185,27 @@ h2 {
     background-image: none;
   }
 
-  .my-music-container {
-    background-image: url("https://i.pinimg.com/originals/6a/87/f0/6a87f0793f75790276ac8fbd56d9a6cc.jpg");
-    background-size: 300px 750px;
+  .my-meme-container {
+    background-color: black;
+    background-attachment: inherit;
+    background-size: 1000px 1050px;
+  }
 
+  .my-music-container {
+  background-image: url("https://cdn.hipwallpaper.com/i/18/29/0cO4Db.jpg");
+    /* NEXT LINE FORCES IMAGE TO SHOW */
+    background-attachment: inherit; 
+    /* background-size: 1000px 600px;  */
   }
 
   .my-music-image {
     /* NICE ALTERNATIV TO DISPLAY NONE */
-    width: 0px;
+    width: 700px;
   }
   .bitcoin-container {
-    /* background-image: url('https://i.pinimg.com/originals/3d/6f/bd/3d6fbd225af84c48b4cbc8a725acc278.jpg'); */
     background-image: url('https://s2.best-wallpaper.net/wallpaper/iphone/1811/Bitcoin-virtual-digital-currency_iphone_320x480.jpg');
+    /* NEXT LINE FORCES IMAGE TO SHOW */
     background-attachment: inherit;
-    background-size: 300px 650px;
+    background-size: 1000px 1050px;
   }
 }
