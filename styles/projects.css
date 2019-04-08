@@ -152,3 +152,47 @@ h2 {
   background-size: cover;
 }
 
+@media only  screen and (max-width: 450px) {
+  .projects-title {
+    font-size: 40px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    margin: 0px;
+  }
+
+  .projects-body {
+    font-size: 30px;
+    line-height: 120%;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .projects-content {
+    margin-top: 0px;
+    padding: 5px;
+    width: 90%;
+  }
+
+  .dev-chat-container {
+    background-color: black;
+    background-image: none;
+  }
+
+  .my-music-container {
+    background-image: url("https://i.pinimg.com/originals/6a/87/f0/6a87f0793f75790276ac8fbd56d9a6cc.jpg");
+    background-size: 300px 750px;
+
+  }
+
+  .my-music-image {
+    /* NICE ALTERNATIV TO DISPLAY NONE */
+    width: 0px;
+  }
+  .bitcoin-container {
+    /* background-image: url('https://i.pinimg.com/originals/3d/6f/bd/3d6fbd225af84c48b4cbc8a725acc278.jpg'); */
+    background-image: url('https://s2.best-wallpaper.net/wallpaper/iphone/1811/Bitcoin-virtual-digital-currency_iphone_320x480.jpg');
+    background-attachment: inherit;
+    background-size: 300px 650px;
+  }
+}
