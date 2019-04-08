@@ -1,84 +1,127 @@
+.projects-title { /* THINKING ABOUT MAKING THIS A STYLING COMPONENT WITH about-me-title*/
+  font-size: 40px;
+  mix-blend-mode: difference;
+  color: white;
+  /* text-align: center; */
+
+  /* TESTING REVERSE COLOR TEXT IN HEADER */
+  /* mix-blend-mode: difference;
+  color: white; */
+}
+
+.about-me-title {
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  /* text-align: center; */
+
+  /* testing reverse text in subheader */
+  /* mix-blend-mode: difference;
+  color: white; */
+}
+
+.projects-content {
+  text-align: center;
+  width: 70%;
+  margin: 10px auto;
+  padding: 32px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  position: relative;
+}
+
+.checkout-cart-link {
+  color: white;
+  text-decoration: underline;
+}
+
+
+.projects-body {
+  margin-left: 0;
+  font-size: 35px;
+  text-align: center;
+
+  /* TESTING NEW CONTENT IN NEXT 4 LINES */
+
+  /* word-spacing: 15px;
+  line-height: 450%; */
+
+  /* mix-blend-mode: difference; */
+  /* Text Contrast */
+  /* mix-blend-mode: difference; */
+  color: white;
+}
+
+.about-me-body {
+  margin-left: 0;
+  font-size: 35px;
+  text-align: center;
+}
+
+.shopping-cart-img {
+  align-self: left;
+  width: 20%;
+  margin-right: 6%;
+  opacity: 0.5;
+}
+
+.dev-chat-image {
+  opacity: 0.7;
+  width: 30%;
+}
+
+.my-music-container {
+  background-image: url("https://cdn.hipwallpaper.com/i/18/29/0cO4Db.jpg");
+  width: 100%;
+  line-height: 450%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.my-meme-container { 
+  /* The image used */
+  /* background-image: url("https://www.telegraph.co.uk/content/dam/news/2016/08/23/106598324PandawaveNEWS_trans_NvBQzQNjv4Bqeo_i_u9APj8RuoebjoAHt0k9u7HhRJvuo-ZLenGRumA.jpg?imwidth=450"); */
+  /* background-image: url('../media//custom-meme-logo.jpg'); */
+  background-image: url("https://media.giphy.com/media/9J5iAntSvFsVDXqjPk/giphy.gif");
+  width: 100%;
+
+  /* Set a specific height */
+  /* height: 500px;  */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dev-chat-container {
+  /* The image used */
+  background-image: url("https://ak2.picdn.net/shutterstock/videos/10713152/thumb/1.jpg");
+  width: 100%;
+
+  /* Set a specific height */
+  /* height: 500px;  */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .shopping-cart-container {
-  background-image: url('../images/steve-jobs.png');
+  /* The image used */
+  background-image: url("https://clipground.com/images/business-people-clipart-18.jpg");
+  /* filter: invert(100%); */
+  background-color: rgba(0, 0, 0, 0.7);
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.projects-content {
-  height: 100%;
-  text-align: center;
-  width: 60%;
-  line-height: 350%;
-  margin: 10px auto;
-  padding: 32px;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
-  position: relative;
-}
-
-.part-2-container {
-  background-image: url('../images/group-dynamic.png');
-  height: 100%;
-  /* height: 800px; */
-
-
-  /* Set a specific height */
-  /* height: 500px;  */
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.projects-content {
-  text-align: center;
-  width: 60%;
-  line-height: 350%;
-  margin: 10px auto;
-  padding: 32px;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
-  position: relative;
-}
-
-.part-3-container {
-  background-image: url("https://cdn.app.compendium.com/uploads/user/e7c 85e8-6ff9-102a-ac6d-e4aebca50425/e475f86d-5568-441a-99ce-4f2af15c3623/File/ca63c5b5fb774f65f7858056e16e4f63/shutterstock_744632635.jpg");
-  height: 100%;
-  /* height: 800px; */
-
-
-  /* Set a specific height */
-  /* height: 500px;  */
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.projects-content {
-  text-align: center;
-  width: 60%;
-  line-height: 350%;
-  margin: 10px auto;
-  padding: 32px;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
-  position: relative;
-}
-
-.part-4-container {
-  background-image: url("https://www.aib.edu.au/servlet/Image?id=7299&dimension=3");
   width: 100%;
-  /* height: 800px; */
-
 
   /* Set a specific height */
   /* height: 500px;  */
@@ -90,21 +133,13 @@
   background-size: cover;
 }
 
-.projects-content {
-  text-align: center;
-  width: 60%;
-  line-height: 350%;
-  margin: 10px auto;
-  padding: 32px;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
-  position: relative;
-}
+.bitcoin-container {
+  background-image: url("https://bitcoinist.com/wp-content/uploads/2018/04/pex-bitcoin-dollars.jpg");
+  /* filter: invert(100%); */
+  background-color: rgba(0, 0, 0, 0.7);
 
-.part-5-container {
-  background-image: url("https://www.ecobuilding.org/code-innovations/code-innovations-blog/seeds-of-innovation-grow-to-make-a-difference/image");
   width: 100%;
-  /* height: 800px; */
+  line-height: 450%;
 
 
   /* Set a specific height */
@@ -117,47 +152,6 @@
   background-size: cover;
 }
 
-.projects-content {
-  text-align: center;
-  width: 60%;
-  line-height: 350%;
-  margin: 10px auto;
-  padding: 32px;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
-  position: relative;
-}
-
-.part-6-container {
-    /* The image used */
-  background-image: url("../images/left-right-brain-one.jpg");
-  width: 100%;
-  /* height: 800px; */
-
-
-  /* Set a specific height */
-  /* height: 500px;  */
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.projects-content {
-  text-align: center;
-  width: 60%;
-  line-height: 350%;
-  margin: 10px auto;
-  padding: 32px;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
-  position: relative;
-  padding-bottom: 100px;
-}
-
-/* MOBILE VERSION */
 @media screen and (max-width: 450px) {
   .projects-title {
     font-size: 40px;
@@ -174,75 +168,29 @@
     margin-bottom: 0px;
   }
 
-.projects-content {
+  .projects-content {
     margin-top: 0px;
-    padding: 0px;
+    padding: 5px;
     width: 90%;
   }
 
-  .shopping-cart-container {
-    width: 100%;
-    background-image: url(../images/steve-jobs.png);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: 850px;
+  .dev-chat-container {
+    background-color: black;
+    background-image: none;
   }
 
-.projects-content {
-    margin-top: 0px;
-    padding: 0px;
-    width: 90%;
+  .my-music-container {
+    background-image: url("https://i.pinimg.com/originals/6a/87/f0/6a87f0793f75790276ac8fbd56d9a6cc.jpg");
   }
 
-  .part-2-container {
-    /* width: 100%; */
-    background-attachment: fixed;
-    background-size: 1050px;
+  .my-music-image {
+    /* NICE ALTERNATIV TO DISPLAY NONE */
+    width: 0px;
   }
-
-.projects-content {
-    margin-top: 0px;
-    padding: 0px;
-    width: 90%;
-  }
-
-  .part-3-container {
-    width: 100%;
-    background-image: url("https://recoverit.wondershare.com/images/article/07/iphone-wallpapers-22.jpg");
-    /* background-image: url("https://i.pinimg.com/originals/04/6a/2a/046a2a0d81e667a354766d45d37b8b5b.png"); */
-  }
-
-.projects-content {
-    margin-top: 0px;
-    padding: 0px;
-    width: 90%;
-  }
-
-  .part-4-container {
-    width: 100%;
-  }
-
-.projects-content {
-    margin-top: 0px;
-    padding: 0px;
-    width: 90%;
-  }
-
-  .part-5-container {
-    width: 100%;
-  }
-
-.projects-content {
-    margin-top: 0px;
-    padding: 0px;
-    width: 90%;
-  }
-
-  .part-6-container {
-    width: 100%;
-    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRSpNZexrI0Mes9-EG13VSNCrcBHGGsy22LflYZrrEXvpx94SP"); */
-    background-image: url("https://i.pinimg.com/originals/14/49/32/144932a404978137eadb37b684d92c8f.jpg");
+  .bitcoin-container {
+    /* background-image: url('https://i.pinimg.com/originals/3d/6f/bd/3d6fbd225af84c48b4cbc8a725acc278.jpg'); */
+    background-image: url('https://s2.best-wallpaper.net/wallpaper/iphone/1811/Bitcoin-virtual-digital-currency_iphone_320x480.jpg');
     background-attachment: inherit;
-    background-size: 450px;
+    background-size: 550px;
   }
 }
