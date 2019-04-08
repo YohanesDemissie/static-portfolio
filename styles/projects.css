@@ -152,7 +152,7 @@ h2 {
   background-size: cover;
 }
 
-@media only  screen and (max-width: 1100px) {
+@media only  screen and (max-width: 219.3pt) {
   .projects-title {
     color: red;
     font-size: 40px;
