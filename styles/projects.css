@@ -155,6 +155,7 @@ h2 {
 @media only  screen and (max-width: 450px) {
   .projects-title {
     font-size: 400px;
+    color: red;
     padding-bottom: 0px;
     padding-top: 20px;
     margin: 0px;
