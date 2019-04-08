@@ -181,6 +181,8 @@ h2 {
 
   .my-music-container {
     background-image: url("https://i.pinimg.com/originals/6a/87/f0/6a87f0793f75790276ac8fbd56d9a6cc.jpg");
+    background-size: 300px 750px;
+
   }
 
   .my-music-image {
@@ -191,6 +193,6 @@ h2 {
     /* background-image: url('https://i.pinimg.com/originals/3d/6f/bd/3d6fbd225af84c48b4cbc8a725acc278.jpg'); */
     background-image: url('https://s2.best-wallpaper.net/wallpaper/iphone/1811/Bitcoin-virtual-digital-currency_iphone_320x480.jpg');
     background-attachment: inherit;
-    background-size: 550px;
+    background-size: 300px 650px;
   }
 }
