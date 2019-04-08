@@ -19,14 +19,14 @@
   text-decoration: none;
 }
 
-@media screen and (min-width: 750px) {
+@media only  screen and (min-width: 750px) {
   .menu-title {
     font-size: 50px;
     padding-top: 20px;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media only  screen and (max-width: 450px) {
   .nav-links {
     font-size: 15px;
   }

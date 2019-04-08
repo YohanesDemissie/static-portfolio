@@ -30,7 +30,7 @@
 }
 
 /* MOBILE VERSION */
-@media screen and (max-width: 450px) {
+@media only  screen and (max-width: 450px) {
   .footer-container {
     font-size: 10px;
     padding: 0px;

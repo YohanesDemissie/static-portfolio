@@ -41,7 +41,7 @@
 
 }
 
-@media screen and (min-width: 451px) {
+@media only  screen and (min-width: 451px) {
   .home-title {
     font-size: 70px;
     padding-top: 60px;
@@ -61,7 +61,7 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media only  screen and (max-width: 450px) {
   .home-title {
     font-size: 30px;
     padding-top: 60px;
