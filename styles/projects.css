@@ -152,8 +152,9 @@ h2 {
   background-size: cover;
 }
 
-@media only  screen and (max-width: 450px) {
+@media only  screen and (max-width: 650px) {
   .projects-title {
+    color: red;
     font-size: 40px;
     padding-bottom: 0px;
     padding-top: 20px;
