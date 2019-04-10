@@ -1,3 +1,17 @@
+.about-me-title {
+  font-size: 80px;
+  padding-bottom: 0px;
+  padding-top: 30px;
+  margin: 0px;
+  margin-bottom: 45px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.about-me-body {
+  font-size: 35px;
+}
+
 .part-1-container {
   background-image: url('../images/steve-jobs.png');
 
@@ -43,7 +57,7 @@
 }
 
 .part-3-container {
-  background-image: url("https://cdn.app.compendium.com/uploads/user/e7c 85e8-6ff9-102a-ac6d-e4aebca50425/e475f86d-5568-441a-99ce-4f2af15c3623/File/ca63c5b5fb774f65f7858056e16e4f63/shutterstock_744632635.jpg");
+  background-image: url(../images/infinite-possibilities.jpg);
   height: 100%;
 
   /* Create the parallax scrolling effect */
@@ -191,7 +205,8 @@
 
   .part-3-container {
     /* width: 100%; */
-    background-image: url("https://recoverit.wondershare.com/images/article/07/iphone-wallpapers-22.jpg");
+    background-image: url(../images/infinite-possibilities.jpg);
+    /* background-image: url("https://recoverit.wondershare.com/images/article/07/iphone-wallpapers-22.jpg"); */
     background-attachment: inherit;
     background-size: cover;
     /* background-image: url("https://i.pinimg.com/originals/04/6a/2a/046a2a0d81e667a354766d45d37b8b5b.png"); */
