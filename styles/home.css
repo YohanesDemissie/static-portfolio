@@ -1,18 +1,12 @@
 .home-body-container {
   /* background-image: url("https://associationsnow.com/wp-content/uploads/2018/12/GettyImages-896358708-600x360.jpg"); */
 
+  /* REALLY COOL CLOUDS LOOP */
   /* background-image: url("https://media.giphy.com/media/13bGgH9VnEDsuA/giphy.gif"); */
-  /* background-image: url('https://media.giphy.com/media/Pl7MhjWSvFwzu/giphy.gif'); */
+
   /* STANDARD BACKGROUND */
-  /* background-image: url('https://jeffdegraff.com/wp-content/uploads/2015/06/bigstock-Think-About-Business-80010203.jpg'); */
   background-image: url("https://princetoninternetmarketing.com/wp-content/uploads/2015/07/web_developer_wallpaper__code__by_plusjack-d7bmt54.jpg");
-  /* background-image: url('https://media.giphy.com/media/10gFo5xPLLO2Kk/giphy.gif'); */
-  /* background-image: url('https://media.giphy.com/media/5ylMR04C8D1eg/giphy.gif'); */
-  /* background-image: url('https://media.giphy.com/media/aQCCNezRpb9Hq/giphy.gif'); */
   
-  /* COOL NEW FAVORITE !!! */
-  /* background-image: url('https://media.giphy.com/media/tQDTcwww0x9kc/giphy.gif'); */
-  /* background-image: url('https://media.giphy.com/media/Lb7Yqx96ACyuA/giphy.gif'); */
   /* width: 80%; */
   /* height: 500px; */
   
@@ -38,7 +32,11 @@
   text-align: center;
   padding-bottom: 29%;
   height: 80vh;
+}
 
+.home-body-text {
+  width: 80%;
+  margin: 10px auto;
 }
 
 @media only  screen and (min-width: 451px) {
