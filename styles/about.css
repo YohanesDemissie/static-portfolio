@@ -23,11 +23,6 @@
 .part-2-container {
   background-image: url('../images/group-dynamic.png');
   height: 100%;
-  /* height: 800px; */
-
-
-  /* Set a specific height */
-  /* height: 500px;  */
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -50,11 +45,6 @@
 .part-3-container {
   background-image: url("https://cdn.app.compendium.com/uploads/user/e7c 85e8-6ff9-102a-ac6d-e4aebca50425/e475f86d-5568-441a-99ce-4f2af15c3623/File/ca63c5b5fb774f65f7858056e16e4f63/shutterstock_744632635.jpg");
   height: 100%;
-  /* height: 800px; */
-
-
-  /* Set a specific height */
-  /* height: 500px;  */
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -77,11 +67,6 @@
 .part-4-container {
   background-image: url("https://www.aib.edu.au/servlet/Image?id=7299&dimension=3");
   width: 100%;
-  /* height: 800px; */
-
-
-  /* Set a specific height */
-  /* height: 500px;  */
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -104,11 +89,6 @@
 .part-5-container {
   background-image: url("https://www.ecobuilding.org/code-innovations/code-innovations-blog/seeds-of-innovation-grow-to-make-a-difference/image");
   width: 100%;
-  /* height: 800px; */
-
-
-  /* Set a specific height */
-  /* height: 500px;  */
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -129,14 +109,8 @@
 }
 
 .part-6-container {
-    /* The image used */
   background-image: url("../images/left-right-brain-one.jpg");
   width: 100%;
-  /* height: 800px; */
-
-
-  /* Set a specific height */
-  /* height: 500px;  */
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
