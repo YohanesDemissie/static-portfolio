@@ -1,23 +1,10 @@
 .projects-title { /* THINKING ABOUT MAKING THIS A STYLING COMPONENT WITH about-me-title*/
-  font-size: 40px;
+  font-size: 80px;
   mix-blend-mode: difference;
   color: white;
   /* text-align: center; */
 
   /* TESTING REVERSE COLOR TEXT IN HEADER */
-  /* mix-blend-mode: difference;
-  color: white; */
-}
-
-.about-me-title {
-  font-size: 40px;
-  text-align: center;
-}
-
-h2 {
-  /* text-align: center; */
-
-  /* testing reverse text in subheader */
   /* mix-blend-mode: difference;
   color: white; */
 }
@@ -42,6 +29,8 @@ h2 {
   margin-left: 0;
   font-size: 35px;
   text-align: center;
+  line-height: 150%;
+
 
   /* TESTING NEW CONTENT IN NEXT 4 LINES */
 
@@ -58,6 +47,8 @@ h2 {
   margin-left: 0;
   font-size: 35px;
   text-align: center;
+  /* line-height: 180%; */
+
 }
 
 .shopping-cart-img {
@@ -70,6 +61,17 @@ h2 {
 .dev-chat-image {
   opacity: 0.7;
   width: 30%;
+}
+
+.my-music-image {
+  width: 70%;
+}
+
+.my-music-title {
+  font-size: 80px;
+  mix-blend-mode: difference;
+  color: white;
+  margin-top: 20px;
 }
 
 .my-music-container {
