@@ -5,6 +5,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center; /* FOR THE CONTACTS LINKS VERSION */
+  margin-top: 10px;
   padding-bottom: 150px;
   padding-top: 100px;
 }
@@ -27,7 +28,6 @@ address {
   line-height: 100px;
   color: black;
   padding: 30px;
-
   font-family: "Avenir Next", "Avenir", sans-serif;
 }
 
