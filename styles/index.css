@@ -151,7 +151,7 @@
 		border-radius: 10px;
 		font-size: 110px;
 		font-size: 110px;
-		color: white;
+		color: black;
 		mix-blend-mode: difference;
 		text-align: center;
 	}
@@ -161,7 +161,7 @@
 		border-radius: 10px;
 		padding-left: 40px;
 		padding-right: 40px;
-		color: white;
+		color: black;
 		font-size: 60px;
 		font-weight: 300;
 		height: 60%;
