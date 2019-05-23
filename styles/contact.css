@@ -140,9 +140,20 @@ input[type="text"], input[type="email"], textarea {
   }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-device-width: 550px) {
+  .contact-header {
+    margin-top: 150px;
+  }
+
   .address-container {
-    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 250px;
+    padding-bottom: 50px;
+
+  }
+
+  .address-container {
+    font-size: 60px;
   }
 }
 
@@ -151,7 +162,7 @@ input[type="text"], input[type="email"], textarea {
     background-image: url("../images/contact-tech.jpg");
     background-attachment: inherit;
     background-size: cover;
-    /* padding-bottom: 0px; */
+    /* padding-bottom: 500px; */
     padding-top: 20px;
     margin-top: 10px; 
   }
