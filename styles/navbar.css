@@ -19,14 +19,21 @@
   text-decoration: none;
 }
 
-@media only  screen and (min-width: 750px) {
-  .menu-title {
-    font-size: 50px;
-    padding-top: 20px;
+@media only screen and (max-width: 900px) {
+  .nav-links {
+    font-size: 30px;
+    /* padding-top: 20px; */
   }
 }
 
-@media only  screen and (max-width: 450px) {
+@media only screen and (max-width: 550px) {
+  .nav-links {
+    font-size: 25px;
+    /* padding-top: 20px; */
+  }
+}
+
+@media only screen and (max-width: 450px) {
   .nav-links {
     font-size: 15px;
   }

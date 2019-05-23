@@ -30,15 +30,15 @@
   margin-right: 12%; */
   font-size: 50px;
   text-align: center;
-  /* padding-bottom: 29%; */
-  height: 80vh;
+  padding-bottom: 29%;
+  /* height: 100vh; */
 
 }
 
 .home-body-text {
   width: 80%;
   margin: 10px auto;
-  font-size: 45px; 
+  font-size: 45px;
 }
 
 @media only  screen and (min-width: 451px) {
