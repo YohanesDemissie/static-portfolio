@@ -16,6 +16,7 @@
 	font-size: 150px;
 	color: black;
 	mix-blend-mode: difference;
+	width: 100%;
 }
 
 .content {
@@ -70,7 +71,7 @@
 		left: -70%;
 	}
 	.index-container {
-		background-image: url("../images/hd0941.mov");
+		/* background-image: url("../images/hd0941.mov"); */
 		background-position: center;
 		background-attachment: inherit;
 		background-size: 270%;
@@ -136,7 +137,7 @@
 	}
 
 	.index-container {
-		background-image: url("../images/hd0941.mov");
+		/* background-image: url("../images/hd0941.mov"); */
 		background-position: center;
 		background-attachment: inherit;
 		background-size: cover 270%;

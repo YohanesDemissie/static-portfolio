@@ -19,13 +19,6 @@
   position: relative;
 }
 
-.checkout-cart-link {
-  color: white;
-  text-decoration: underline;
-  font-size: 20px;
-}
-
-
 .projects-body {
   margin-left: 0;
   font-size: 35px;
@@ -155,8 +148,15 @@
   background-size: cover;
 }
 
+.checkout-cart-link {
+  color: white;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
 /* IPHONE 7 PLUS WIDTH IN INCHES */
 @media all and (max-device-width: 450px) {
+
   .projects-title {
     font-size: 80px;
     padding-bottom: 0px;
