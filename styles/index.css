@@ -83,7 +83,7 @@
 	.title {
 		background-color: rgba(255, 255, 255, 0.4);
 		border-radius: 10px;
-		font-size: 110px;
+		font-size: 110px !important;
 		color: black;
 		mix-blend-mode: difference;
 		text-align: center;
@@ -97,7 +97,7 @@
 		padding-top: 20px;
 		padding-bottom: 20px;
 		color: black;
-		font-size: 60px;
+		font-size: 60px !important;
 		font-weight: 300;
 		height: 60%;
 		padding-bottom: 20px;
@@ -150,8 +150,7 @@
 	.title {
 		background-color: rgba(255, 255, 255, 0.4);
 		border-radius: 10px;
-		font-size: 110px;
-		font-size: 110px;
+		font-size: 110px !important;
 		color: black;
 		mix-blend-mode: difference;
 		text-align: center;
@@ -163,7 +162,7 @@
 		padding-left: 40px;
 		padding-right: 40px;
 		color: black;
-		font-size: 60px;
+		font-size: 60px !important;
 		font-weight: 300;
 		height: 60%;
 		padding-bottom: 20px;
