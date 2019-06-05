@@ -1,3 +1,13 @@
+html {
+  background-color: rgba(0, 0, 0, 0.9);
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+
+a:hover {
+  transition: color 0.3s ease;
+  color: tomato;
+}
+
 .projects-title { /* THINKING ABOUT MAKING THIS A STYLING COMPONENT WITH about-me-title*/
   font-size: 80px;
   mix-blend-mode: difference;

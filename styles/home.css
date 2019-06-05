@@ -1,3 +1,13 @@
+html {
+  background-color: rgba(0, 0, 0, 0.9);
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+
+a:hover {
+  transition: color 0.3s ease;
+  color: tomato;
+}
+
 .home-body-container {
   /* background-image: url("https://associationsnow.com/wp-content/uploads/2018/12/GettyImages-896358708-600x360.jpg"); */
 

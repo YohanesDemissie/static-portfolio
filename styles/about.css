@@ -1,3 +1,13 @@
+html {
+  background-color: rgba(0, 0, 0, 0.9);
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+
+a:hover {
+  transition: color 0.3s ease;
+  color: tomato;
+}
+
 .about-me-title {
   font-size: 80px;
   padding-bottom: 0px;
@@ -68,18 +78,18 @@
 }
 
 .part-3-content {
+  background-color: rgba(0, 0, 0, 0.6);
   text-align: center;
   width: 60%;
   line-height: 350%;
   margin: 10px auto;
   padding: 32px;
-  background-color: rgba(0, 0, 0, 0.6);
   color: white;
   position: relative;
 }
 
 .part-4-container {
-  background-image: url("https://www.aib.edu.au/servlet/Image?id=7299&dimension=3");
+  background-image: url("../images/team-work.jpeg");
   width: 100%;
 
   /* Create the parallax scrolling effect */

@@ -1,3 +1,13 @@
+html {
+  background-color: rgba(0, 0, 0, 0.9);
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+
+a:hover {
+  transition: color 0.3s ease;
+  color: tomato;
+}
+
 .videoLayout {
 	position: fixed;
   right: 0;
