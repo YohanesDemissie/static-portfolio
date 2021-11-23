@@ -80,8 +80,8 @@ a:hover {
 	.title {
 		background-color: rgba(255, 255, 255, 0.4);
 		border-radius: 10px;
-		font-size: 110px !important;
-		color: black;
+		font-size: 110px;
+		/* color: black; */
 		mix-blend-mode: difference;
 		text-align: center;
 	}
@@ -93,8 +93,8 @@ a:hover {
 		padding-right: 40px;
 		padding-top: 20px;
 		padding-bottom: 20px;
-		color: black;
-		font-size: 60px !important;
+		/* color: black; */
+		font-size: 60px;
 		font-weight: 300;
 		height: 60%;
 		padding-bottom: 20px;
@@ -102,14 +102,9 @@ a:hover {
 		mix-blend-mode: difference;
 	}
 	.button {
-		/* background-color: rgba(255, 255, 255, 0.4); */
 		padding: 40px;
-		/* text-decoration: none; */
 		font-size: 60px;
 		font-weight: 700;
-		/* color: black; */
-		/* mix-blend-mode: difference; */
-		/* border-radius: 100px; */
 
 		/* CENTERS BUTTON */
 		margin-top: 100px;
@@ -133,54 +128,13 @@ a:hover {
 		left: -70%;
 	}
 
-	.index-container {
-		background-position: center;
-		background-attachment: inherit;
-		background-size: cover 270%;
-		background-repeat: no-repeat;
-		margin-top: 0px;
-		padding-top: 700px;
-		padding-bottom: 300px;
-	}
-
-	.title {
-		background-color: rgba(255, 255, 255, 0.4);
-		border-radius: 10px;
-		font-size: 110px !important;
-		color: black;
-		mix-blend-mode: difference;
-		text-align: center;
-	}
-
-	.sub-title {
-		background-color: rgba(255, 255, 255, 0.4);
-		border-radius: 10px;
-		padding-left: 40px;
-		padding-right: 40px;
-		color: black;
-		font-size: 60px !important;
-		font-weight: 300;
-		height: 60%;
-		padding-bottom: 20px;
-		text-align: center;
-		mix-blend-mode: difference;
-	}
-
 	.button {
-		/* background-color: rgba(255, 255, 255, 0.4); */
-		padding: 40px;
-		/* text-decoration: none; */
 		font-size: 50px;
-		/* font-weight: 700; */
-		/* color: black; */
 		mix-blend-mode: difference;
-		/* border-radius: 100px; */
 		margin-top: 50px;
 
 		/* CENTERS BUTTON */
-		position: absolute;
 		top: 90%;
-		left: 50%;
 		transform: translate(-50%, -50%);
 		-ms-transform: translate(-50%, -50%);
 	}
