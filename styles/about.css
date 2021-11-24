@@ -1,7 +1,3 @@
-.about-me-body {
-	font-size: 30px;
-}
-
 .parallax-background {
 	/* TRY TO ISOLATE AND REUSE THESE PROPERTIES */
 	background-attachment: fixed;
@@ -27,7 +23,7 @@
 	line-height: 350%;
 	margin: 10px auto;
 	padding: 32px;
-	color: white;
+	/* color: white; */
 	position: relative;
 }
 

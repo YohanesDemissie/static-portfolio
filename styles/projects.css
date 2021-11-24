@@ -8,20 +8,6 @@
 	position: relative;
 }
 
-.projects-body {
-	margin-left: 0;
-	font-size: 30px;
-	text-align: center;
-	line-height: 150%;
-	color: white;
-}
-
-.about-me-body {
-	margin-left: 0;
-	font-size: 35px;
-	text-align: center;
-}
-
 .shopping-cart-img {
 	align-self: left;
 	width: 20%;

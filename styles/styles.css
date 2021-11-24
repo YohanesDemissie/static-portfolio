@@ -20,3 +20,10 @@ a:hover {
 	mix-blend-mode: difference;
 	color: white;
 }
+
+.body-content {
+	font-size: 30px;
+	text-align: center;
+	line-height: 150%;
+	color: white;
+}
