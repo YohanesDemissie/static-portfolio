@@ -19,12 +19,12 @@
 .about-page-content {
 	background-color: rgba(0, 0, 0, 0.6);
 	text-align: center;
-	width: 60%;
-	line-height: 350%;
+	width: 70%;
 	margin: 10px auto;
 	padding: 32px;
-	/* color: white; */
+	color: white;
 	position: relative;
+	/* line-height: 350%; */
 }
 
 /* .part-2-container {
@@ -88,19 +88,6 @@
 		margin-bottom: 45px;
 		font-weight: 700;
 		line-height: 120%;
-	}
-
-	.about-me-body {
-		font-size: 45px;
-		line-height: 180%;
-		width: 100%;
-		margin: 0px;
-	}
-
-	.about-page-content {
-		margin-top: 0px;
-		padding: 20px;
-		width: 90%;
 	}
 
 	.part-1-container {

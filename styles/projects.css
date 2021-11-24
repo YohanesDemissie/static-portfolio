@@ -1,9 +1,9 @@
 .projects-content {
+	background-color: rgba(0, 0, 0, 0.6);
 	text-align: center;
 	width: 70%;
 	margin: 10px auto;
 	padding: 32px;
-	background-color: rgba(0, 0, 0, 0.6);
 	color: white;
 	position: relative;
 }
@@ -111,18 +111,6 @@
 		margin: 0px;
 		margin-bottom: 45px;
 		font-weight: 700;
-	}
-
-	.projects-body {
-		font-size: 45px;
-		width: 100%;
-		margin: 0px;
-	}
-
-	.projects-content {
-		margin-top: 0px;
-		padding: 20px;
-		width: 90%;
 	}
 
 	.shopping-cart-container {
