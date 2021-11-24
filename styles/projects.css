@@ -1,9 +1,3 @@
-.projects-title {
-	font-size: 60px;
-	mix-blend-mode: difference;
-	color: white;
-}
-
 .projects-content {
 	text-align: center;
 	width: 70%;
@@ -124,7 +118,7 @@
 
 /* IPHONE 7 PLUS WIDTH IN INCHES */
 @media all and (max-device-width: 450px) {
-	.projects-title {
+	.titles {
 		font-size: 80px;
 		padding-bottom: 0px;
 		padding-top: 30px;

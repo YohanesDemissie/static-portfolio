@@ -14,3 +14,9 @@ a:hover {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+.titles {
+	font-size: 60px;
+	mix-blend-mode: difference;
+	color: white;
+}
