@@ -1,51 +1,37 @@
-html {
-  background-color: rgba(0, 0, 0, 0.9);
-  font-family: "Avenir Next", "Avenir", sans-serif;
-}
-
-a:hover {
-  transition: color 0.3s ease;
-  color: tomato;
-}
-
 .navbar {
-    background-image: url(../images/skyline-one.png);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin: 0px;
+	background-image: url(../images/skyline-one.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin: 0px;
 
-    /*  PREVIOUSLY UL TAG */
-    padding-left: 0px;
-    display: flex;
-    justify-content: space-between;
-  }
+	padding-left: 0px;
+	display: flex;
+	justify-content: space-between;
+}
 
 .nav-links {
-  padding-top: 15%; /* PASS */
-  font-size: 50px;
-  mix-blend-mode: difference;
-  color: white;
-  text-decoration: none;
+	padding-top: 15%;
+	font-size: 50px;
+	mix-blend-mode: difference;
+	color: white;
+	text-decoration: none;
 }
 
 @media only screen and (max-width: 900px) {
-  .nav-links {
-    font-size: 30px;
-    /* padding-top: 20px; */
-  }
+	.nav-links {
+		font-size: 30px;
+	}
 }
 
 @media only screen and (max-width: 550px) {
-  .nav-links {
-    font-size: 25px;
-    /* padding-top: 20px; */
-  }
+	.nav-links {
+		font-size: 25px;
+	}
 }
 
 @media only screen and (max-width: 450px) {
-  .nav-links {
-    font-size: 20px;
-  }
+	.nav-links {
+		font-size: 20px;
+	}
 }
-

@@ -1,260 +1,160 @@
-html {
-  background-color: rgba(0, 0, 0, 0.9);
-  font-family: "Avenir Next", "Avenir", sans-serif;
-}
-
-a:hover {
-  transition: color 0.3s ease;
-  color: tomato;
-}
-
 .about-me-title {
-  font-size: 80px;
-  padding-bottom: 0px;
-  padding-top: 30px;
-  margin: 0px;
-  margin-bottom: 45px;
-  font-weight: 700;
-  line-height: 150%;
+	font-size: 80px;
+	padding-bottom: 0px;
+	padding-top: 30px;
+	margin: 0px;
+	margin-bottom: 45px;
+	font-weight: 700;
+	line-height: 150%;
 }
 
 .about-me-body {
-  font-size: 35px;
+	font-size: 35px;
 }
 
-.part-1-container {
-  background-image: url('../images/steve-jobs.png');
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.parallax-background {
+	/* TRY TO ISOLATE AND REUSE THESE PROPERTIES */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.part-1-content {
-  height: 100%;
-  text-align: center;
-  width: 60%;
-  line-height: 350%;
-  margin: 10px auto;
-  padding: 32px;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
-  position: relative;
+.inspiration-container {
+	background-image: url('../images/steve-jobs.png');
+
+	/* TRY TO ISOLATE AND REUSE THESE PROPERTIES */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.part-2-container {
-  background-image: url('../images/group-dynamic.png');
-  height: 100%;
+.about-page-content {
+	background-color: rgba(0, 0, 0, 0.6);
+	text-align: center;
+	width: 60%;
+	line-height: 350%;
+	margin: 10px auto;
+	padding: 32px;
+	color: white;
+	position: relative;
+}
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+/* .part-2-container {
+	background-image: url('../images/group-dynamic.png');
 }
 
 .part-2-content {
-  text-align: center;
-  width: 60%;
-  line-height: 350%;
-  margin: 10px auto;
-  padding: 32px;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
-  position: relative;
+	text-align: center;
+	width: 60%;
+	line-height: 350%;
+	margin: 10px auto;
+	padding: 32px;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	position: relative;
+} */
+
+.possibilities-container {
+	background-image: url('../images/infinite-possibilities.jpg');
+	/* TRY TO ISOLATE AND REUSE THESE PROPERTIES */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.part-3-container {
-  background-image: url(../images/infinite-possibilities.jpg);
-  height: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.team-container {
+	background-image: url('../images/team-work.jpeg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* width: 100%; */
 }
 
-.part-3-content {
-  background-color: rgba(0, 0, 0, 0.6);
-  text-align: center;
-  width: 60%;
-  line-height: 350%;
-  margin: 10px auto;
-  padding: 32px;
-  color: white;
-  position: relative;
+.beginnings-container {
+	background-image: url('https://www.ecobuilding.org/code-innovations/code-innovations-blog/seeds-of-innovation-grow-to-make-a-difference/image');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* width: 100%; */
 }
 
-.part-4-container {
-  background-image: url("../images/team-work.jpeg");
-  width: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.part-4-content {
-  text-align: center;
-  width: 60%;
-  line-height: 350%;
-  margin: 10px auto;
-  padding: 32px;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
-  position: relative;
-}
-
-.part-5-container {
-  background-image: url("https://www.ecobuilding.org/code-innovations/code-innovations-blog/seeds-of-innovation-grow-to-make-a-difference/image");
-  width: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.part-5-content {
-  text-align: center;
-  width: 60%;
-  line-height: 350%;
-  margin: 10px auto;
-  padding: 32px;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
-  position: relative;
-}
-
-.part-6-container {
-  background-image: url("../images/left-right-brain-one.jpg");
-  width: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.part-6-content {
-  text-align: center;
-  width: 60%;
-  line-height: 350%;
-  margin: 10px auto;
-  padding: 32px;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
-  position: relative;
-  padding-bottom: 100px;
+.conclusion-container {
+	background-image: url('../images/left-right-brain-one.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* width: 100%; */
 }
 
 /* MOBILE VERSION */
-@media only  screen and (max-device-width: 450px) {
-  .about-me-title {
-    font-size: 80px;
-    padding-bottom: 0px;
-    padding-top: 30px;
-    margin: 0px;
-    margin-bottom: 45px;
-    font-weight: 700;
-    line-height: 120%;
-  }
+@media only screen and (max-device-width: 450px) {
+	.about-me-title {
+		font-size: 80px;
+		padding-bottom: 0px;
+		padding-top: 30px;
+		margin: 0px;
+		margin-bottom: 45px;
+		font-weight: 700;
+		line-height: 120%;
+	}
 
-  .about-me-body {
-    /* font-size: 30px;
-    line-height: 120%;
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 0px; */
+	.about-me-body {
+		font-size: 45px;
+		line-height: 180%;
+		width: 100%;
+		margin: 0px;
+	}
 
-    font-size: 45px;
-    line-height: 180%;
-    width: 100%;
-    margin: 0px;
-  }
+	.about-page-content {
+		margin-top: 0px;
+		padding: 20px;
+		width: 90%;
+	}
 
-  .part-1-content {
-    padding: 20px;
-    width: 90%;
-  }
+	.part-1-container {
+		width: 100%;
+		background-image: url(../images/steve-jobs.png);
+		background-attachment: inherit;
+		background-position: center;
 
-  .part-1-container {
-    width: 100%;
-    background-image: url(../images/steve-jobs.png);
-    background-attachment: inherit;
-    background-position: center;
+		/* background-size: 850px 900px; */
+	}
 
-    /* background-size: 850px 900px; */
-  }
+	.part-2-container {
+		/* width: 100%; */
+		background-image: url('../images/part-2-container.jpg');
+		background-attachment: inherit;
+		background-size: cover;
+	}
 
-  .part-2-content {
-    margin-top: 0px;
-    padding: 20px;
-    width: 90%;
-  }
+	.part-3-container {
+		/* width: 100%; */
+		background-image: url(../images/infinite-possibilities.jpg);
+		background-attachment: inherit;
+		background-size: cover;
+	}
 
-  .part-2-container {
-    /* width: 100%; */
-    background-image: url("../images/part-2-container.jpg");
-    background-attachment: inherit;
-    background-size: cover;
-  }
+	.part-4-container {
+		background-image: url('../images/team-work.jpeg');
+		background-attachment: inherit;
+		background-size: cover;
+	}
 
-  .part-3-content {
-    margin-top: 0px;
-    padding: 20px;
-    width: 90%;
-  }
+	.part-5-container {
+		background-image: url('../images/humble-beginnings.jpeg');
+		background-attachment: inherit;
+		background-size: cover;
+	}
 
-  .part-3-container {
-    /* width: 100%; */
-    background-image: url(../images/infinite-possibilities.jpg);
-    /* background-image: url("https://recoverit.wondershare.com/images/article/07/iphone-wallpapers-22.jpg"); */
-    background-attachment: inherit;
-    background-size: cover;
-    /* background-image: url("https://i.pinimg.com/originals/04/6a/2a/046a2a0d81e667a354766d45d37b8b5b.png"); */
-  }
-
-  .part-4-content {
-    /* margin-top: 0px; */
-    padding: 20px;
-    width: 90%;
-  }
-
-  .part-4-container {
-    background-image: url("../images/team-work.jpeg");
-    background-attachment: inherit;
-    background-size: cover;
-  }
-
-  .part-5-content {
-    margin-top: 0px;
-    padding: 20px;
-    width: 90%;
-  }
-
-  .part-5-container {
-    background-image: url("../images/humble-beginnings.jpeg");
-    background-attachment: inherit;
-    background-size: cover;
-  }
-
-  .part-6-content {
-    margin-top: 0px;
-    padding: 20px;
-    width: 90%;
-  }
-
-  .part-6-container {
-    background-image: url("https://i.pinimg.com/originals/14/49/32/144932a404978137eadb37b684d92c8f.jpg");
-    background-attachment: inherit;
-    background-size: 100%;
-  }
+	.part-6-container {
+		background-image: url('https://i.pinimg.com/originals/14/49/32/144932a404978137eadb37b684d92c8f.jpg');
+		background-attachment: inherit;
+		background-size: 100%;
+	}
 }
