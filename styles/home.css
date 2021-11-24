@@ -1,71 +1,11 @@
 .home-body-container {
+	/* Really cool cloud loops and digital backgrounds for future integrations*/
+	/* background-image: url("https://media.giphy.com/media/13bGgH9VnEDsuA/giphy.gif"); */
 	/* background-image: url("https://associationsnow.com/wp-content/uploads/2018/12/GettyImages-896358708-600x360.jpg"); */
 
-	/* REALLY COOL CLOUDS LOOP */
-	/* background-image: url("https://media.giphy.com/media/13bGgH9VnEDsuA/giphy.gif"); */
-
-	/* STANDARD BACKGROUND */
 	background-image: url('https://princetoninternetmarketing.com/wp-content/uploads/2015/07/web_developer_wallpaper__code__by_plusjack-d7bmt54.jpg');
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	color: white;
-	/* height: 80vh; */
-}
-
-.home-title {
-	margin-top: 0px;
-	padding-top: 200px;
-}
-
-.home-body-content {
-	margin-top: 0px;
-	font-size: 50px;
-	text-align: center;
-	padding-bottom: 29%;
-}
-
-.home-body-text {
-	width: 80%;
-	margin: 10px auto;
-	font-size: 45px;
-}
-
-@media only screen and (min-width: 451px) {
-	.home-title {
-		font-size: 70px;
-		padding-top: 60px;
-	}
-
-	.home-body-content {
-		font-size: 50px;
-		background-color: rgba(0, 0, 0, 0.6);
-		width: 90%;
-		margin: 10px auto;
-		padding: 10px;
-	}
-}
-
-@media only screen and (max-device-width: 450px) {
-	.home-title {
-		font-size: 80px;
-		padding-bottom: 0px;
-		padding-top: 30px;
-		margin: 0px;
-		margin-bottom: 45px;
-		font-weight: 700;
-	}
-
-	.home-body-content {
-		background-color: rgba(0, 0, 0, 0.6);
-		width: 90%;
-		margin: 10px auto;
-		padding: 10px;
-	}
-
-	.home-body-text {
-		font-size: 40px;
-		line-height: 180%;
-	}
 }
