@@ -6,10 +6,6 @@
 
 	/* STANDARD BACKGROUND */
 	background-image: url('https://princetoninternetmarketing.com/wp-content/uploads/2015/07/web_developer_wallpaper__code__by_plusjack-d7bmt54.jpg');
-
-	/* width: 80%; */
-	/* height: 500%; */
-
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -25,13 +21,9 @@
 
 .home-body-content {
 	margin-top: 0px;
-	/* original text content on home */
-	/* margin-left: 12%;
-  margin-right: 12%; */
 	font-size: 50px;
 	text-align: center;
 	padding-bottom: 29%;
-	/* height: 100vh; */
 }
 
 .home-body-text {
@@ -44,11 +36,6 @@
 	.home-title {
 		font-size: 70px;
 		padding-top: 60px;
-	}
-
-	.home-body-container {
-		/* background-image: url("https://www.bitdegree.org/tutorials/wp-content/uploads/2018/08/what-is-a-web-developer.jpg"); */
-		/* background-image: url("https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif"); */
 	}
 
 	.home-body-content {

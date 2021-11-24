@@ -20,14 +20,6 @@
 	background-size: cover;
 }
 
-/* .parallax-background {
-	TRY TO ISOLATE AND REUSE THESE PROPERTIES
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-} */
-
 .inspiration-container {
 	background-image: url('../images/steve-jobs.png');
 

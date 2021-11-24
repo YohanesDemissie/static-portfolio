@@ -78,9 +78,6 @@
 	background-image: url('https://ak2.picdn.net/shutterstock/videos/10713152/thumb/1.jpg');
 	width: 100%;
 
-	/* Set a specific height */
-	/* height: 500px;  */
-
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
 	background-position: center;
@@ -89,15 +86,9 @@
 }
 
 .shopping-cart-container {
-	/* The image used */
 	background-image: url('https://clipground.com/images/business-people-clipart-18.jpg');
-	/* filter: invert(100%); */
 	background-color: rgba(0, 0, 0, 0.7);
-
 	width: 100%;
-
-	/* Set a specific height */
-	/* height: 500px;  */
 
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
@@ -108,14 +99,10 @@
 
 .bitcoin-container {
 	background-image: url('https://bitcoinist.com/wp-content/uploads/2018/04/pex-bitcoin-dollars.jpg');
-	/* filter: invert(100%); */
 	background-color: rgba(0, 0, 0, 0.7);
 
 	width: 100%;
 	line-height: 450%;
-
-	/* Set a specific height */
-	/* height: 500px;  */
 
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
@@ -179,11 +166,9 @@
 		background-image: url('https://cdn.hipwallpaper.com/i/18/29/0cO4Db.jpg');
 		/* NEXT LINE FORCES IMAGE TO SHOW */
 		background-attachment: inherit;
-		/* background-size: 1000px 600px;  */
 	}
 
 	.my-music-image {
-		/* NICE ALTERNATIV TO DISPLAY NONE */
 		width: 700px;
 	}
 	.bitcoin-container {

@@ -5,14 +5,13 @@
 	background-size: contain;
 	margin: 0px;
 
-	/*  PREVIOUSLY UL TAG */
 	padding-left: 0px;
 	display: flex;
 	justify-content: space-between;
 }
 
 .nav-links {
-	padding-top: 15%; /* PASS */
+	padding-top: 15%;
 	font-size: 50px;
 	mix-blend-mode: difference;
 	color: white;
@@ -22,14 +21,12 @@
 @media only screen and (max-width: 900px) {
 	.nav-links {
 		font-size: 30px;
-		/* padding-top: 20px; */
 	}
 }
 
 @media only screen and (max-width: 550px) {
 	.nav-links {
 		font-size: 25px;
-		/* padding-top: 20px; */
 	}
 }
 
