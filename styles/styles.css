@@ -54,6 +54,7 @@ a:hover {
 		margin-top: 0px;
 		padding: 20px;
 		width: 90%;
+		background-attachment: inherit;
 	}
 
 	.body-content {
