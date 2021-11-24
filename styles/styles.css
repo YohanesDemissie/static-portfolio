@@ -1,4 +1,17 @@
 html {
-	background-color: rgba(0, 0, 0, 0.9);
+	/* background-color: rgba(0, 0, 0, 0.9); */
+	background-color: black;
 	font-family: sans-serif;
+}
+
+a:hover {
+	transition: color 0.3s ease;
+	color: tomato;
+}
+
+.parallax-background {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }

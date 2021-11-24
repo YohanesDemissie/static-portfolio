@@ -1,8 +1,3 @@
-a:hover {
-	transition: color 0.3s ease;
-	color: tomato;
-}
-
 .navbar {
 	background-image: url(../images/skyline-one.png);
 	background-attachment: fixed;

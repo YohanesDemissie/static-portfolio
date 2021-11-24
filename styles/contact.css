@@ -1,8 +1,3 @@
-a:hover {
-	transition: color 0.3s ease;
-	color: tomato;
-}
-
 .contacts-container {
 	/* background-image: url('https://clas.uconn.edu/wp-content/uploads/sites/646/2015/01/Facebookimage_shutterstock_111385067.jpg'); */
 	background-image: url('../images/contact-tech.jpg');
