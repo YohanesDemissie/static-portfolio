@@ -49,6 +49,11 @@
 	mix-blend-mode: difference;
 	color: white;
 	margin-top: 20px;
+
+	/* DUPLICATES FOR TITLES BELOW */
+	font-size: 80px;
+	mix-blend-mode: difference;
+	color: white;
 }
 
 .my-music-container {
