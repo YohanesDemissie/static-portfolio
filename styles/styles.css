@@ -38,7 +38,18 @@ a:hover {
 	color: white;
 }
 
-@media all and (max-device-width: 450px) {
+@media only screen and (max-device-width: 450px) {
+	.titles {
+		color: white;
+		mix-blend-mode: normal;
+		font-size: 80px;
+		padding-bottom: 0px;
+		padding-top: 30px;
+		margin: 0px;
+		margin-bottom: 45px;
+		font-weight: 700;
+	}
+
 	.body-container {
 		margin-top: 0px;
 		padding: 20px;

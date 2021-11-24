@@ -8,8 +8,6 @@
 
 .inspiration-container {
 	background-image: url('../images/steve-jobs.png');
-
-	/* TRY TO ISOLATE AND REUSE THESE PROPERTIES */
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -24,7 +22,6 @@
 	padding: 32px;
 	color: white;
 	position: relative;
-	/* line-height: 350%; */
 }
 
 /* .part-2-container {
@@ -57,7 +54,6 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	/* width: 100%; */
 }
 
 .beginnings-container {
@@ -66,7 +62,6 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	/* width: 100%; */
 }
 
 .conclusion-container {
@@ -75,59 +70,4 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	/* width: 100%; */
-}
-
-/* MOBILE VERSION */
-@media only screen and (max-device-width: 450px) {
-	.titles {
-		font-size: 80px;
-		padding-bottom: 0px;
-		padding-top: 30px;
-		margin: 0px;
-		margin-bottom: 45px;
-		font-weight: 700;
-		line-height: 120%;
-	}
-
-	.part-1-container {
-		width: 100%;
-		background-image: url(../images/steve-jobs.png);
-		background-attachment: inherit;
-		background-position: center;
-
-		/* background-size: 850px 900px; */
-	}
-
-	.part-2-container {
-		/* width: 100%; */
-		background-image: url('../images/part-2-container.jpg');
-		background-attachment: inherit;
-		background-size: cover;
-	}
-
-	.part-3-container {
-		/* width: 100%; */
-		background-image: url(../images/infinite-possibilities.jpg);
-		background-attachment: inherit;
-		background-size: cover;
-	}
-
-	.part-4-container {
-		background-image: url('../images/team-work.jpeg');
-		background-attachment: inherit;
-		background-size: cover;
-	}
-
-	.part-5-container {
-		background-image: url('../images/humble-beginnings.jpeg');
-		background-attachment: inherit;
-		background-size: cover;
-	}
-
-	.part-6-container {
-		background-image: url('https://i.pinimg.com/originals/14/49/32/144932a404978137eadb37b684d92c8f.jpg');
-		background-attachment: inherit;
-		background-size: 100%;
-	}
 }
