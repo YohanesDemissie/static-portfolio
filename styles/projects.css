@@ -1,5 +1,5 @@
 .projects-title {
-	font-size: 80px;
+	font-size: 60px;
 	mix-blend-mode: difference;
 	color: white;
 }
@@ -16,7 +16,7 @@
 
 .projects-body {
 	margin-left: 0;
-	font-size: 35px;
+	font-size: 30px;
 	text-align: center;
 	line-height: 150%;
 	color: white;
@@ -135,7 +135,6 @@
 
 	.projects-body {
 		font-size: 45px;
-		line-height: 180%;
 		width: 100%;
 		margin: 0px;
 	}

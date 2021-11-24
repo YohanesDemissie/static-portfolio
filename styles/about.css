@@ -9,7 +9,7 @@
 }
 
 .about-me-body {
-	font-size: 35px;
+	font-size: 30px;
 }
 
 .parallax-background {
@@ -75,7 +75,7 @@
 }
 
 .beginnings-container {
-	background-image: url('https://www.ecobuilding.org/code-innovations/code-innovations-blog/seeds-of-innovation-grow-to-make-a-difference/image');
+	background-image: url('../images/flower.jpeg');
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
