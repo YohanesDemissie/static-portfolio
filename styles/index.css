@@ -1,0 +1,65 @@
+html {
+	background-color: black;
+	font-family: sans-serif;
+}
+
+a:hover {
+	transition: color 0.3s ease;
+	color: tomato;
+}
+
+.parallax-background {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.titles {
+	font-size: 60px;
+	mix-blend-mode: difference;
+	color: white;
+}
+
+.body-container {
+	background-color: rgba(0, 0, 0, 0.6);
+	text-align: center;
+	width: 70%;
+	margin: 10px auto;
+	padding: 32px;
+	color: white;
+	position: relative;
+}
+
+.body-content {
+	font-size: 30px;
+	text-align: center;
+	line-height: 150%;
+	color: white;
+}
+
+@media only screen and (max-device-width: 450px) {
+	.titles {
+		color: white;
+		mix-blend-mode: normal;
+		font-size: 80px;
+		padding-bottom: 0px;
+		padding-top: 30px;
+		margin: 0px;
+		margin-bottom: 45px;
+		font-weight: 700;
+	}
+
+	.body-container {
+		margin-top: 0px;
+		padding: 20px;
+		width: 90%;
+		background-attachment: inherit;
+	}
+
+	.body-content {
+		width: 100%;
+		margin: 0px;
+		padding-bottom: 100px;
+	}
+}

@@ -1,29 +1,13 @@
-.about-me-title {
-	font-size: 80px;
-	padding-bottom: 0px;
-	padding-top: 30px;
-	margin: 0px;
-	margin-bottom: 45px;
-	font-weight: 700;
-	line-height: 150%;
-}
-
-.about-me-body {
-	font-size: 30px;
-}
-
-.parallax-background {
-	/* TRY TO ISOLATE AND REUSE THESE PROPERTIES */
+/* TRY TO ISOLATE AND REUSE THESE PROPERTIES BUT WON'T WORK WITH BACKGROUND-IMAGE UNLESS IT IS ALL WITHIN THE SAME CLASS*/
+/* .parallax-background {
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-}
+} */
 
 .inspiration-container {
 	background-image: url('../images/steve-jobs.png');
-
-	/* TRY TO ISOLATE AND REUSE THESE PROPERTIES */
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -33,32 +17,15 @@
 .about-page-content {
 	background-color: rgba(0, 0, 0, 0.6);
 	text-align: center;
-	width: 60%;
-	line-height: 350%;
+	width: 70%;
 	margin: 10px auto;
 	padding: 32px;
 	color: white;
 	position: relative;
 }
-
-/* .part-2-container {
-	background-image: url('../images/group-dynamic.png');
-}
-
-.part-2-content {
-	text-align: center;
-	width: 60%;
-	line-height: 350%;
-	margin: 10px auto;
-	padding: 32px;
-	background-color: rgba(0, 0, 0, 0.6);
-	color: white;
-	position: relative;
-} */
 
 .possibilities-container {
 	background-image: url('../images/infinite-possibilities.jpg');
-	/* TRY TO ISOLATE AND REUSE THESE PROPERTIES */
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -71,7 +38,6 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	/* width: 100%; */
 }
 
 .beginnings-container {
@@ -80,7 +46,6 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	/* width: 100%; */
 }
 
 .conclusion-container {
@@ -89,72 +54,4 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	/* width: 100%; */
-}
-
-/* MOBILE VERSION */
-@media only screen and (max-device-width: 450px) {
-	.about-me-title {
-		font-size: 80px;
-		padding-bottom: 0px;
-		padding-top: 30px;
-		margin: 0px;
-		margin-bottom: 45px;
-		font-weight: 700;
-		line-height: 120%;
-	}
-
-	.about-me-body {
-		font-size: 45px;
-		line-height: 180%;
-		width: 100%;
-		margin: 0px;
-	}
-
-	.about-page-content {
-		margin-top: 0px;
-		padding: 20px;
-		width: 90%;
-	}
-
-	.part-1-container {
-		width: 100%;
-		background-image: url(../images/steve-jobs.png);
-		background-attachment: inherit;
-		background-position: center;
-
-		/* background-size: 850px 900px; */
-	}
-
-	.part-2-container {
-		/* width: 100%; */
-		background-image: url('../images/part-2-container.jpg');
-		background-attachment: inherit;
-		background-size: cover;
-	}
-
-	.part-3-container {
-		/* width: 100%; */
-		background-image: url(../images/infinite-possibilities.jpg);
-		background-attachment: inherit;
-		background-size: cover;
-	}
-
-	.part-4-container {
-		background-image: url('../images/team-work.jpeg');
-		background-attachment: inherit;
-		background-size: cover;
-	}
-
-	.part-5-container {
-		background-image: url('../images/humble-beginnings.jpeg');
-		background-attachment: inherit;
-		background-size: cover;
-	}
-
-	.part-6-container {
-		background-image: url('https://i.pinimg.com/originals/14/49/32/144932a404978137eadb37b684d92c8f.jpg');
-		background-attachment: inherit;
-		background-size: 100%;
-	}
 }

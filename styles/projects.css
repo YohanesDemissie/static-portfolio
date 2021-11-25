@@ -1,31 +1,11 @@
-.projects-title {
-	font-size: 60px;
-	mix-blend-mode: difference;
-	color: white;
-}
-
 .projects-content {
+	background-color: rgba(0, 0, 0, 0.6);
 	text-align: center;
 	width: 70%;
 	margin: 10px auto;
 	padding: 32px;
-	background-color: rgba(0, 0, 0, 0.6);
 	color: white;
 	position: relative;
-}
-
-.projects-body {
-	margin-left: 0;
-	font-size: 30px;
-	text-align: center;
-	line-height: 150%;
-	color: white;
-}
-
-.about-me-body {
-	margin-left: 0;
-	font-size: 35px;
-	text-align: center;
 }
 
 .shopping-cart-img {
@@ -124,61 +104,12 @@
 
 /* IPHONE 7 PLUS WIDTH IN INCHES */
 @media all and (max-device-width: 450px) {
-	.projects-title {
-		font-size: 80px;
-		padding-bottom: 0px;
-		padding-top: 30px;
-		margin: 0px;
-		margin-bottom: 45px;
-		font-weight: 700;
-	}
-
-	.projects-body {
-		font-size: 45px;
-		width: 100%;
-		margin: 0px;
-	}
-
-	.projects-content {
-		margin-top: 0px;
-		padding: 20px;
-		width: 90%;
-	}
-
-	.shopping-cart-container {
-		margin-top: 10px;
-		background-image: url('https://clipground.com/images/business-people-clipart-18.jpg');
+	.dev-chat-container {
+		background-image: url('../images/dev-chat-image.png');
 		background-attachment: inherit;
 	}
 
 	.dev-chat-image {
 		display: none;
-	}
-
-	.dev-chat-container {
-		background-color: black;
-		background-image: none;
-	}
-
-	.my-meme-container {
-		background-color: black;
-		background-attachment: inherit;
-		/* background-size: 200%; */
-	}
-
-	.my-music-container {
-		background-image: url('https://cdn.hipwallpaper.com/i/18/29/0cO4Db.jpg');
-		/* NEXT LINE FORCES IMAGE TO SHOW */
-		background-attachment: inherit;
-	}
-
-	.my-music-image {
-		width: 700px;
-	}
-	.bitcoin-container {
-		background-image: url('https://s2.best-wallpaper.net/wallpaper/iphone/1811/Bitcoin-virtual-digital-currency_iphone_320x480.jpg');
-		/* NEXT LINE FORCES IMAGE TO SHOW */
-		background-attachment: inherit;
-		background-size: 1000px 1050px;
 	}
 }
