@@ -1,10 +1,10 @@
-.parallax-background {
-	/* TRY TO ISOLATE AND REUSE THESE PROPERTIES */
+/* TRY TO ISOLATE AND REUSE THESE PROPERTIES BUT WON'T WORK WITH BACKGROUND-IMAGE UNLESS IT IS ALL WITHIN THE SAME CLASS*/
+/* .parallax-background {
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-}
+} */
 
 .inspiration-container {
 	background-image: url('../images/steve-jobs.png');
@@ -24,24 +24,8 @@
 	position: relative;
 }
 
-/* .part-2-container {
-	background-image: url('../images/group-dynamic.png');
-}
-
-.part-2-content {
-	text-align: center;
-	width: 60%;
-	line-height: 350%;
-	margin: 10px auto;
-	padding: 32px;
-	background-color: rgba(0, 0, 0, 0.6);
-	color: white;
-	position: relative;
-} */
-
 .possibilities-container {
 	background-image: url('../images/infinite-possibilities.jpg');
-	/* TRY TO ISOLATE AND REUSE THESE PROPERTIES */
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
