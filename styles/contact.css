@@ -29,6 +29,7 @@ address {
 	color: black;
 	padding: 30px;
 	font-family: sans-serif;
+	border-radius: 20px;
 }
 
 .contact-links {
@@ -54,6 +55,7 @@ form {
 	width: 70%;
 	margin: 10px auto;
 	margin-bottom: 80px;
+	border-radius: 20px;
 }
 
 h1 {
@@ -126,7 +128,7 @@ textarea {
 		font-size: 60px;
 		line-height: 120%;
 		width: 80%;
-		padding: 20px;
+		padding: 40px 20px;
 		margin-bottom: 0px;
 	}
 }

@@ -3,7 +3,7 @@ html {
 }
 
 .videoLayout {
-	position: fixed;
+	/* position: fixed;
 	right: 0;
 	bottom: 0;
 	min-width: 100%;
@@ -11,30 +11,70 @@ html {
 	width: auto;
 	height: auto;
 	z-index: -100;
+	background-repeat: no-repeat; */
+	/* top: 0;
+	right: 0;
+	bottom: 0; */
+	/* width: 100%; */
+	height: 100%;
+	z-index: -100;
 	background-repeat: no-repeat;
+	background: no-repeat center center fixed;
+
+	position: absolute;
+		top: 0;
+		height: 100%;
 }
 
 .title {
-	margin-top: 100px;
+	/* margin-top: 100px; */
 	margin-bottom: 40px;
-	font-size: 150px;
+	font-size: 70px;
 	color: black;
 	width: 100%;
+	/* new stuff */
+					background-color: rgba(255, 255, 255, 0.4);
+						border-radius: 10px;
+						font-size: 70px;
+						/* color: black; */
+						mix-blend-mode: difference;
+						text-align: center;
+						margin-left: auto;
+						margin-right: auto;
+						padding: 20px 10%;
+						width: 50%;
 }
 
 .content {
-	margin-left: auto;
-	margin-right: auto;
+	/* margin-left: auto;
+	margin-right: auto; */
 	text-align: center;
+	/* margin: auto;
+	width: 50%; */
 }
 
 .sub-title {
 	margin-top: 100px;
-	font-size: 80px;
-	margin-left: auto;
-	margin-right: auto;
+	font-size: 50px;
+	/* margin-left: auto;
+	margin-right: auto; */
 	width: 60%;
 	color: black;
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	/* new stuff */
+					background-color: rgba(255, 255, 255, 0.4);
+						border-radius: 10px;
+						font-size: 50px;
+						/* color: black; */
+						mix-blend-mode: difference;
+						text-align: center;
+						margin-left: auto;
+						margin-right: auto;
+						width: 50%;
+						padding: 20px 10%;
 }
 
 .button {
@@ -43,9 +83,9 @@ html {
 	padding-left: 100px;
 	padding-right: 100px;
 	text-decoration: none;
-	font-size: 100px;
+	font-size: 50px;
 	font-weight: 700;
-	position: relative absolute;
+	/* position: relative absolute; */
 	color: black;
 	mix-blend-mode: difference;
 	border-radius: 100px;
@@ -61,12 +101,18 @@ html {
 @media only screen and (max-device-height: 900px) {
 	.background {
 		background-color: black;
+		width: max-content;
 	}
 
 	.videoLayout {
-		width: 300%;
+		/* width: 300%;
 		height: 50%;
-		left: -70%;
+		*/
+		/* left: -100%; 
+		*/
+		position: absolute; 
+		top: 0;
+		height: 100%;
 	}
 	.welcome-container {
 		/* background-image: url("../images/hd0941.mov"); */
@@ -75,8 +121,8 @@ html {
 		background-size: 270%;
 		background-repeat: no-repeat;
 		margin-top: 0px;
-		padding-top: 700px;
-		padding-bottom: 300px;
+		/* padding-top: 700px;
+		padding-bottom: 300px; */
 	}
 	.title {
 		background-color: rgba(255, 255, 255, 0.4);
@@ -85,13 +131,14 @@ html {
 		/* color: black; */
 		mix-blend-mode: difference;
 		text-align: center;
+		/* margin-left: 50%; */
 	}
 
 	.sub-title {
 		background-color: rgba(255, 255, 255, 0.4);
 		border-radius: 10px;
-		padding-left: 40px;
-		padding-right: 40px;
+		/* padding-left: 40px;
+		padding-right: 40px; */
 		padding-top: 20px;
 		padding-bottom: 20px;
 		/* color: black; */
@@ -101,6 +148,7 @@ html {
 		padding-bottom: 20px;
 		text-align: center;
 		mix-blend-mode: difference;
+		/* margin-left: 50%; */
 	}
 	.button {
 		padding: 40px;
@@ -109,11 +157,10 @@ html {
 
 		/* CENTERS BUTTON */
 		margin-top: 100px;
-		position: absolute;
-		top: 70%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
+		/* top: 70%;
+		left: 50%; */
+		/* transform: translate(-50%, -50%); */
+		/* -ms-transform: translate(-50%, -50%); */
 	}
 }
 
@@ -124,9 +171,11 @@ html {
 	}
 
 	.videoLayout {
-		width: 300%;
+		/* width: 300%;
 		height: 50%;
-		left: -70%;
+		*/
+		left: -100%;
+		height: 100%;
 	}
 
 	.button {
