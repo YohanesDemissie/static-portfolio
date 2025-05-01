@@ -82,6 +82,17 @@
 	background-size: cover;
 }
 
+.my-music-container {
+	background-image: url(../images/podcast-background.webp);
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	line-height: 450%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .bitcoin-container {
 	background-image: url('https://bitcoinist.com/wp-content/uploads/2018/04/pex-bitcoin-dollars.jpg');
 	background-color: rgba(0, 0, 0, 0.7);
