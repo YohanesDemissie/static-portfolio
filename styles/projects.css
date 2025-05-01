@@ -48,7 +48,8 @@
 }
 
 .my-meme-container {
-	background-image: url('https://giphy.com/embed/fR4iVvuq10F9svm4dh');
+	/* background-image: url('https://giphy.com/embed/fR4iVvuq10F9svm4dh'); */
+	background-image: url('../images/friends-laughing.jpg');
 	width: 100%;
 
 	/* Create the parallax scrolling effect */
