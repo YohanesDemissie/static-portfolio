@@ -9,3 +9,18 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+@media only screen and (max-device-width: 550px) {
+	.home-body-container {
+			/* Really cool cloud loops and digital backgrounds for future integrations*/
+			/* background-image: url("https://media.giphy.com/media/13bGgH9VnEDsuA/giphy.gif"); */
+			/* background-image: url("https://associationsnow.com/wp-content/uploads/2018/12/GettyImages-896358708-600x360.jpg"); */
+	
+			/* background-image: url('https://princetoninternetmarketing.com/wp-content/uploads/2015/07/web_developer_wallpaper__code__by_plusjack-d7bmt54.jpg');
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover; */
+			height: 78vh;
+		}
+}

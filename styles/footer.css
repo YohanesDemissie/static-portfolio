@@ -10,6 +10,8 @@
 	background-image: url('https://rprtphoto.files.wordpress.com/2011/06/orion.jpg');
 	width: 100%;
 	background-size: cover;
+	/* position: fixed; */
+	bottom: 0;
 }
 
 .footer-back-to-top {

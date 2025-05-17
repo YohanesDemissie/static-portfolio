@@ -124,4 +124,8 @@
 	.dev-chat-image {
 		display: none;
 	}
+
+	.shopping-cart-container, .my-meme-container, .dev-chat-container, .my-music-container, .bitcoin-container {
+		background-attachment: local;
+	}
 }
