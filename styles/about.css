@@ -55,3 +55,9 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+@media all and (max-device-width: 450px) {
+	.conclusion-container, .beginnings-container, .team-container, .possibilities-container, .inspiration-container {
+		background-attachment: local;
+	}
+}

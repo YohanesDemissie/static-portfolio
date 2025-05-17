@@ -184,3 +184,14 @@ textarea {
 		padding: 10px;
 	}
 }
+
+@media only screen and (max-device-width: 700px) {
+	.contacts-container {
+		/* Really cool cloud loops and digital backgrounds for future integrations*/
+		/* background-image: url("https://media.giphy.com/media/13bGgH9VnEDsuA/giphy.gif"); */
+		/* background-image: url("https://associationsnow.com/wp-content/uploads/2018/12/GettyImages-896358708-600x360.jpg"); */
+
+		/* background-image: url('https://princetoninternetmarketing.com/wp-content/uploads/2015/07/web_developer_wallpaper__code__by_plusjack-d7bmt54.jpg'); */
+		height: 75vh;
+	}
+}

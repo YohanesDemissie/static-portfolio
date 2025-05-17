@@ -66,11 +66,11 @@ a:hover {
 		font-size: 5vw;
 	}
 	footer {
-		position: absolute;
+		/* position: absolute; */
 		bottom: 0;
 		left: 0;
 		right: 0;
-		padding-bottom: 50px;
+		/* padding-bottom: 50px; */
 	}
 }
 
