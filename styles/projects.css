@@ -8,6 +8,22 @@
 	position: relative;
 }
 
+.ask-geoffrey-container {
+	/* background-image: url('https://giphy.com/embed/fR4iVvuq10F9svm4dh'); */
+	background-image: url('../images/ai-background.avif');
+	width: 100%;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.ask-geoffrey-image {
+	width: 200px;
+}
+
 .shopping-cart-img {
 	align-self: left;
 	width: 20%;
